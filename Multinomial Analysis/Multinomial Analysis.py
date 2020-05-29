@@ -11,10 +11,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# ===========================================================================================
-# Business Problem :- Prepare a prediction model for predict the type of program a student 
-#                     is in, based on other attributes.
-# ===========================================================================================
+# ==========================================================================================================================
+# Business Problem :- Prepare a prediction model for predict the type of program a student is in, based on other attributes.
+# ==========================================================================================================================
 
 data = pd.read_csv("mdata.csv",index_col = 0)
 pd.set_option('display.max_column',10)
