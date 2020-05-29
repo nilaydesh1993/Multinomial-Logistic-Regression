@@ -109,10 +109,10 @@ train_predict = model.predict(X_train)
 test_predict = model.predict(X_test)
 
 # Train accuracy 
-accuracy_score(y_train,train_predict) # 64%
+accuracy_score(y_train,train_predict)
 
 # Test accuracy 
-accuracy_score(y_test,test_predict) # 55%
+accuracy_score(y_test,test_predict)
                         
                                  # ---------------------------- #
 
